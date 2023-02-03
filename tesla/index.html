@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Tesla</title>
+</head>
+<body>
+    <header class="tesla_header">
+        <div class="tesla_icon">
+            <img src="./img/logo.png" alt="">
+        </div>
+    </header>
+    <h1>Range Per Charge</h1>
+    <div class="tesla">
+        <div class="tesla_car">
+            <div class="tesla_wheels">
+                <div style="background-size: contain;" class="round_bg"></div>
+                <div style="background-size: contain;" class="round_bg"></div>
+            </div>
+        </div>
+    </div>
+    <div class="div">
+        <div class="stock">
+            <p class="textt">Запас хода</p>
+            <p class="km"> <span class="kmmm">750</span> км</p>
+        </div>
+        <div class="price">
+            <p class="textt">Цена</p>
+            <p id="price_tesla" class="km">$89, 990</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="box">
+            <div class="text">
+                <div class="grey_text">
+                    Скорость автомобиля
+                </div>
+                <div id="km" class="information">
+                    <span class="kmm">60</span> 
+                    <span>км/ч</span>
+                </div>
+            </div>
+            <div class="infu_btn">
+                <button id="plus" class="v
+v"><img src="./img/image 3 (1).png" alt=""></button>
+                <button id="minus" class="v
+v"><img src="./img/image 4.png" alt=""></button>
+            </div>
+        </div>
+        <div class="box">
+            <div class="text">
+                <div class="grey_text">
+                    Температура за окнами
+                </div>
+                <div class="information">
+                     <span class="gradus">0</span>°
+                </div>
+            </div>
+            <div class="infu_btn">
+                <button id="plus_gradus" class="v
+v"><img src="./img/image 3 (1).png" alt=""></button>
+                <button id="minus_gradus" class="v
+v"><img src="./img/image 4.png" alt=""></button>
+            </div>
+        </div>
+        <div class="box">
+            <div class="text">
+                <div class="grey_text">
+                    Диски
+                </div>
+                <div  id="twentyOne" class="information">
+                    19
+                </div>
+            </div>
+            <div class="infu_btn">
+                <button data-wheels="two" class=v><img src="./img/image 3 (1).png" alt=""></button>
+                <button data-wheels="one" class=v><img src="./img/image 4.png" alt=""></button>
+            </div>
+        </div>
+        <div class="box">
+            <div class="grey_text">
+                Кондиционер
+                <br>
+                <br>
+                <div class="inp">
+                    <input type="checkbox">
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="grey_text">
+                Версия Long Range
+                <br>
+                <br>
+                <div class="inp">
+                    <input type="checkbox">
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="grey_text">
+                Вид салона
+                <br>
+                <br>
+                <div class="inp">
+                    <input class="ipp" type="checkbox">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal">
+        <div class="salon">
+            <div style="background: url('./img/black.png');background-repeat: no-repeat; background-size: contain;"
+                class="salon_color_img"></div>
+        </div>
+        <div class="div">
+            <div class="stock">
+                <p class="textt">Запас хода</p>
+                <p class="km">750км</p>
+            </div>
+            <div class="price">
+                <p class="textt">Цена</p>
+                <p class="km">$89, 990</p>
+            </div>
+        </div>
+        <div class="color">
+            <div class="btn">
+                <p class="texxtt">Цвет салона</p>
+                <button class="brown" data-color="brown"></button>
+                <button class="white" data-color="white"></button>
+                <button class="gold" data-color="gold"></button>
+            </div>
+            <div class="btnn">
+                <p class="texxtt">Вид автомобиля</p>
+                <div class="btn">
+                    <div class="inp">
+                        <input id="auto" type="checkbox">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
